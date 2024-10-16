@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.form{
+    display: flex;
+}
+.form input{
+    flex-grow: 1;
+}
+
+.form button{
+    width: 20%;
+}
+
+.form button,
+.form input{
+    padding: 15px;
+}
+
+.table td{
+    border: 1px solid;
+    padding: 15px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
